@@ -1,0 +1,359 @@
+<script>
+    Vista();
+    
+    function Vista(){
+        let menu = true;
+        while (menu == true) {
+            alert("Bienvenidos a ||App Gronomy|| \nSe encarga de un sistema para poder controlar diferentes asuntos respecto a tu planta");
+            alert("Ingrese la opcion que desea utilizar");
+            let opc = parseInt(prompt("\n->1- Plantio \n->2- Salir"));
+            
+            if (opc == "Plantio" || opc == "plantio" || opc == 1){
+                Plantio();
+                menu = false;
+            }  
+            else if (opc == "Salir" || opc == "salir" || opc == 2) {
+                alert("Saliendo del programa...");
+                menu = false;
+            }
+            else{
+                alert("Opcion no valida");
+                menu = false;
+            }  
+        }
+    }
+    
+    function Plantio(){
+        let acabar = true;
+        while (acabar == true) {
+        alert("Seleccione el numero de la opcion que necesita:");
+        var plantas = parseInt(prompt("Plantas registradas:" + "\n1- Rosas" + 
+        "\n2- Girasoles" + "\n3- Tulipanes." + "\n4- Menu principal"));
+    
+        switch (plantas){
+            case 1:
+                Rosas();
+                acabar = false;
+            break;
+            case 2:
+                Girasol();
+                acabar = false;
+            break;
+            case 3:
+                Tulipan();
+                acabar = false;
+            break;
+            case 4:
+                Vista();
+                acabar = false;
+            break;
+            default:
+                alert("Opcion no valida");
+            break;
+            }
+        }
+    }
+    
+    function Rosas() {
+        let acabar1 = true;
+        while(acabar1 == true){
+        let categorias;
+                categorias = parseInt(prompt(
+                    "1-Esperanza de vida promedio;"+ 
+                    "\n2- Temperatura ideal" +
+                    "\n3- Riego recomendado" + 
+                    "\n4- Recomendaciones generales"+
+                    "\n5- Regresar"));
+                       
+                        switch (categorias) {
+                            case 1:
+                                let tiempo = prompt("Ingrese el numeros días estimados tiene con su rosa: ");
+                                let condiciones = prompt("En su punto de vista personal. \nConsidera que ha tenido un cuidado... \n1.bueno  2.malo");
+                                if (condiciones == "bueno") {
+                                    console.log("De acuerdo a los datos ingresados su rosa tiene " + tiempo , "dias y el cuidado ah sido " + condiciones, "\nPor lo cual se estima que su rosa tendra un tiempo aproximado de vida de " + (14-tiempo)+ " dias o mas dependiendo el cuidado que siga teniendo");
+                                }
+                                else{
+                                    console.log("De acuerdo a los datos ingresados su rosa se encuentra en un cuidado " + condiciones + "\n El tiempo de vida restante es de " + (14-tiempo)+" dias aproximadamente");
+                                    console.log("Le recomiendo revisar las Recomendaciones generales. ");
+                                }
+                            break;
+                            case 2: 
+                                console.log("Temperatura ideal");
+                                apartadoTemperatura(17,25,"la rosa");
+                                 
+                            break;
+                            case 3:
+                                console.log("Riego recomendado" +
+                                 "\n En un clima extremadamente caluroso, debes asumir que las plantas" +
+                                 "\n de rosas necesitarán un riego diario. En un verano estándar con un calor razonable," +
+                                 "\n necesitarás regar cada dos o tres días, y, en un clima seco y cálido, solo necesitarás" +
+                                 "\n regar alrededor de una vez por semana");
+                            break;
+                            case 4:
+                               console.log("Recomendaciones generales" +
+                               console.log("Esperanza de vida general" + 
+                                 "\n Si somos absolutamente descuidados" +
+                                 "\n y por ejemplo no ponemos la flor en agua sino digamos encima de una mesa," +
+                                 "\n no es raro que al cabo de tan solo 12 horas se empiecen a ver los primeros efectos" +
+                                 "\n del marchite de la flor y tan solo 24 horas después presente un aspecto que nada tenga" +
+                                 "\n que ver con aquella rosa que adquirimos en la floristería el día anterior" +
+                                 "\n con los cuidados debidos una rosa puede durar lozana entre 10 y 14 días" +
+                                 "\n" +
+                                 "\n El mejor momento para plantar rosas es en la primavera, después de la última helada," + 
+                                 "\n o en el otoño al menos seis semanas antes de la primera helada promedio en su área. " +
+                                 "\n Esto le da a las raíces suficiente tiempo para excavar en el suelo antes de que las" +
+                                 "\n plantas se queden dormidas durante el invierno." ));
+                            break;
+                            case 5:
+                                Vista();
+                                acabar1 = false;
+                            break;
+                            default:
+                                alert("Opcion no valida");
+                            break;
+                        }
+                    }        
+    }
+    
+    function Tulipan(){
+        let acabar2 = true;
+        while(acabar2 == true){
+        let categorias2;
+                categorias2 = parseInt(prompt(
+                    "1-Esperanza de vida promedio;"+ 
+                    "\n2- Temperatura ideal" +
+                    "\n3- Riego recomendado" + 
+                    "\n4- Recomendaciones generales"+
+                    "\n5- Regresar"));
+                        switch (categorias2) {
+                            case 1:
+                                let tiempo = prompt("Ingrese el numeros días estimados tiene con su tulipan: ");
+                                let condiciones = prompt("En su punto de vista personal. \nConsidera que ha tenido un cuidado... \n1.bueno  2.malo");
+                                if (condiciones == "bueno") {
+                                    console.log("De acuerdo a los datos ingresados su tulipan tiene " + tiempo , "dias y el cuidado ah sido " + condiciones, "\nPor lo cual se estima que su tulipan tendra un tiempo aproximado de vida de " + (28-tiempo)+ " dias o mas dependiendo el cuidado que siga teniendo");
+                                }
+                                else{
+                                    console.log("De acuerdo a los datos ingresados su tulipan se encuentra en un cuidado " + condiciones + "\n El tiempo de vida restante es de " + (28-tiempo)+" dias aproximadamente");
+                                    console.log("Le recomiendo revisar las Recomendaciones generales.  ");
+                                }
+                            break;
+                            case 2:
+                                console.log("Temperatura ideal");
+                                apartadoTemperatura(13,16,"El tulipan");
+                            break;
+                            case 3:
+                                console.log("Riego recomendado" +
+                                 "\n Lo principal que tienes que saber con respecto al riego" +  
+                                 "\n de los tulipanes es que la tierra debe estar levemente húmeda," +
+                                 "\n y por supuesto debes evitar que se estanque o encharque." +
+                                 "\n Si has plantado los tulipanes en una zona del jardín donde se junta agua," +
+                                 "\n es conveniente que traslades las plantas a un lugar en el que no se acumule el agua.");
+                            break;
+                            case 4:
+                                alert("Recomendaciones generales" +
+                                "\n Riega los tulipanes al primer signo de florecimiento, a menos que haya llovido recientemente" +
+                                "\n o que se espere lluvia substancial dentro de los próximos días." +
+                                "\n Mantente pendiente de los tulipanes a lo largo de la primavera, verano y otoño." +
+                                "\n Revisa los niveles de humedad en el suelo cada pocos días." +
+                                "\n" +
+                                "\n Los tulipanes son plantas delicadas, por lo que debes evitar ambientes hostiles." +
+                                "\n Coloca tu jarrón en un lugar fresco de la casa, alejado de las ventanas por donde entre el sol." + 
+                                "\n El aire caliente y húmedo acelera el decaimiento de las plantas, lo que acorta la vida de los" +
+                                "\n tulipanes y hace que se marchiten más rápido.");
+                            break;
+                            case 5:
+                                Plantio();
+                                acabar2 = false;
+                            break;
+                            default:
+                                console.log("Opcion no valida");
+                            break;
+                        }
+        }
+    }
+    
+    function Girasol() {
+        let acabar3 = true;
+        while(acabar3 == true){
+        let categorias3;
+                categorias3 = parseInt(prompt(
+                    "1-Esperanza de vida promedio;"+ 
+                    "\n2- Temperatura ideal" +
+                    "\n3- Riego recomendado" + 
+                    "\n4- Recomendaciones generales"+
+                    "\n5- Regresar"));
+                    
+                        switch (categorias3) {
+                            case 1:
+                                let tiempo = prompt("Ingrese el numeros días estimados tiene con su girasol: ");
+                                let condiciones = prompt("En su punto de vista personal. \nConsidera que ha tenido un cuidado... \n1.bueno  2.malo");
+                                if (condiciones == "bueno") {
+                                    console.log("De acuerdo a los datos ingresados su girasol tiene " + tiempo , "dias y el cuidado ah sido " + condiciones, "\nPor lo cual se estima que su girasol tendra un tiempo aproximado de vida de " + (182-tiempo)+" dias o mas dependiendo el cuidado que siga teniendo");
+                                }
+                                else{
+                                    console.log("De acuerdo a los datos ingresados su girasol se encuentra en un cuidado " + condiciones + "\n El tiempo de vida restante es de " + (182-tiempo)+" dias aproximadamente");
+                                    console.log("Le recomiendo revisar las Recomendaciones generales.");
+                                }
+                            break;
+                            case 2:
+                                console.log("Temperatura ideal");
+                                apartadoTemperatura(20,25,"el girasol");
+                            break;
+                            case 3:
+                                console.log("Riego recomendado");
+                            break;
+                            case 4:
+                                console.log("Recomendaciones generales");
+                            break;
+                            case 5:
+                                Plantio();
+                                acabar3 = false;
+                            break;
+                            default:
+                                console.log("Opcion no valida");
+                            break;
+                        }
+        }
+    }
+    
+    function apartadoTemperatura(x1,x2,x3){
+        
+        var medias = [];
+
+        var instrucciones;
+        instrucciones = "FUNCIONES Y UTILIDADES QUE OFRECE ESTE APARTADO." + 
+        "\n\nEl funcionamiento de este apartado consiste en otorgarle al usuario una herramienta que le permita" + 
+        "\ncalcular y registrar la temperatura media a la cual, la planta se ve sometida a costa de las temperaturas del dia," +
+        "\ncon el fin de mostrarle al usuario si la temperatura media que percibe es optima para su desarrollo, de lo contrario," + 
+        "\nel programa le recomendara las temperaturas optimas a las cuales el usuario debe mantener su planta con base a los" + 
+        "\nrangos a los cuales se puede desarrollar optimamente su planta en especifico."
+        
+        var info; 
+        info = "PUNTOS A CONSIDERAR:" + 
+        "\n\nTiempo térmico e integral térmico." + 
+        "\n\nEste total se llama tiempo térmico o suma de calor y las unidades termicas son grados/días (°Cd). Se puede" +  
+        "\ncalcular sumando las temperaturas medias de cada día durante la fase en cuestión. La temperatura media es" +  
+        "\n(máxima + mínima)/2."
+        
+        console.log(instrucciones);
+        console.log(info);
+        console.log("Para consultar la temperatura del dia en curso, se anexa una opción de consulta en el siguiente link." + 
+        "\n\nLink recomendado; http://tiempoytemperatura.es/mexico/ciudad-de-mexico.html#por-horas")
+        
+        alert("¿Esta listo para iniciar?")
+        
+        var dato = true;
+        while(dato == true){
+            
+            var dia = parseInt(prompt("Inserte el numero del dia del que realizara el calculo y registro." +
+            "\n1- Lunes." + 
+            "\n2- Martes." +
+            "\n3- Miercoles." +
+            "\n4- Jueves." +
+            "\n5- Viernes." +
+            "\n6- Sabado." +
+            "\n7- Domingo." +
+            "\n8- Temperaturas semanales." +
+            "\nSi desea salir del programa ingrese 0"));
+    
+                var instruccion = dia;
+    
+                switch(instruccion){
+                    case 1:
+                        console.log("\n\nCalculos del dia lunes;");
+                        calculadora(x1,x2,x3);
+                    break;
+    
+                    case 2:
+                        console.log("\n\nCalculos del dia Martes; ");
+                        calculadora(x1,x2,x3);
+                    break;
+    
+                    case 3:
+                        console.log("\n\nCalculos del dia Miercoles; ");
+                        calculadora(x1,x2,x3);
+                    break;
+    
+                    case 4:
+                        console.log("\n\nCalculos del dia Jueves; ");
+                        calculadora(x1,x2,x3);
+                    break;
+    
+                    case 5:
+                        console.log("\n\nCalculos del dia Viernes; ");
+                        calculadora(x1,x2,x3);
+                    break;
+    
+                    case 6:
+                        console.log("\n\nCalculos del dia Sabado; ");
+                        calculadora(x1,x2,x3);
+                    break;
+    
+                    case 7:
+                        console.log("\n\nCalculos del dia Domingo; ");
+                        calculadora(x1,x2,x3);
+                    break;
+    
+                    case 8:
+                        let tem_med_sem = 0;
+                        for(i = 0;i <medias.length;i++){
+                            tem_med_sem += medias[i];
+                        }
+                        let division = tem_med_sem/7;
+                        let suma = tem_med_sem;
+                        console.log("\n\nTemperaturas semanales.");
+                        console.log("\nLa suma de la temperatura acumulada es de: " + suma + "°");
+                        console.log("\nLa temperatura media de la semana es de: " + division + "°");
+    
+                    break;
+    
+                    case 0:
+                    alert("Programa finalizado.");
+                    dato = false;
+                    break;
+    
+                    default:
+                    break;
+                }  
+            }
+    
+    function calculadora (min,max,planta){
+    
+    let rangos = [min,max]; //--> min - max
+    let tipoPlanta = planta;
+        
+                    let maxMin;
+                    maxMin = [parseInt(prompt("Inserte la temperatura maxima aproximada del día:")),parseInt(prompt("Inserte la temperatura minima aproximada del día de hoy:",))]; 
+                    
+                    let maxima = maxMin[0];
+                    let minima = maxMin[1];
+    
+                    let capturas = "Temperaturas del dia: " + "\n\nMaxima: " + maxima + " -" + " Minima: " + minima;
+                    let tem_med = (maxima + minima) / 2;
+                    medias.push(tem_med);
+    
+                    let temperatura_media = "La temperatura media del dia en curso es: " + tem_med + "°";
+                    let conclusion;
+                   
+                    if(tem_med > rangos[1]){
+                        conclusion = "\nEl dia supera la maxima temperatura recomendable para " + tipoPlanta + ", por ecima de " + 
+                        "\n" + (tem_med - rangos[1]) + "°"+  
+                        "\n\nSe recomienda modificar la temperatura ambiente dentro del rango " + rangos[0] + "°" + " - " + rangos[1] + "°";
+                    }
+                    else if(tem_med < rangos[0]){
+                        conclusion = "\nEl dia posee una temperatura inferior a la recomendable para " + tipoPlanta + ", esta por debajo de" + 
+                        "\n"+ (tem_med - rangos[0]) + "°" +
+                        "\n\nSe recomienda modificar la temperatura ambiente dentro del rango" + rangos[0] + "°" +" - " + rangos[1] + "°";
+                    }
+                    else{
+                        conclusion = "\nLa temperatura media es optima para " + tipoPlanta + ", ya que se encuentra dentro del" + 
+                        "\nintervalo de " + rangos[0] + "°" + " - " + rangos[1] + "°" + " con una temperatura media de " + (tem_med) + "°" + 
+                        "\nMantener en vigilancia la temperatura optima para el desarrollo de la planta."
+                    }
+                    console.log(capturas);
+                    console.log(temperatura_media);
+                    console.log(conclusion);
+                }
+            }
+</script>
+    
