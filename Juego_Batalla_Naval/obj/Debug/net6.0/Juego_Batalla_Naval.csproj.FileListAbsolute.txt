@@ -1,0 +1,15 @@
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\Unidad_3\Juego_Batalla_Naval\bin\Debug\net6.0\Juego_Batalla_Naval.exe
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\Unidad_3\Juego_Batalla_Naval\bin\Debug\net6.0\Juego_Batalla_Naval.deps.json
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\Unidad_3\Juego_Batalla_Naval\bin\Debug\net6.0\Juego_Batalla_Naval.runtimeconfig.json
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\Unidad_3\Juego_Batalla_Naval\bin\Debug\net6.0\Juego_Batalla_Naval.dll
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\Unidad_3\Juego_Batalla_Naval\bin\Debug\net6.0\ref\Juego_Batalla_Naval.dll
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\Unidad_3\Juego_Batalla_Naval\bin\Debug\net6.0\Juego_Batalla_Naval.pdb
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\Unidad_3\Juego_Batalla_Naval\obj\Debug\net6.0\Juego_Batalla_Naval.csproj.AssemblyReference.cache
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\Unidad_3\Juego_Batalla_Naval\obj\Debug\net6.0\Juego_Batalla_Naval.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\Unidad_3\Juego_Batalla_Naval\obj\Debug\net6.0\Juego_Batalla_Naval.AssemblyInfoInputs.cache
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\Unidad_3\Juego_Batalla_Naval\obj\Debug\net6.0\Juego_Batalla_Naval.AssemblyInfo.cs
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\Unidad_3\Juego_Batalla_Naval\obj\Debug\net6.0\Juego_Batalla_Naval.csproj.CoreCompileInputs.cache
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\Unidad_3\Juego_Batalla_Naval\obj\Debug\net6.0\Juego_Batalla_Naval.dll
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\Unidad_3\Juego_Batalla_Naval\obj\Debug\net6.0\ref\Juego_Batalla_Naval.dll
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\Unidad_3\Juego_Batalla_Naval\obj\Debug\net6.0\Juego_Batalla_Naval.pdb
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\Unidad_3\Juego_Batalla_Naval\obj\Debug\net6.0\Juego_Batalla_Naval.genruntimeconfig.cache

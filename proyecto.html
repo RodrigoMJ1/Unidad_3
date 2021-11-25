@@ -1,0 +1,167 @@
+<script>
+Vista();
+
+function Vista(){
+    let menu = true;
+    while (menu == true) {
+        alert("Ingrese la opcion que desea utilizar");
+        let opc = parseInt(prompt("\n1- Plantio \n2- Salir"));
+        
+        if (opc == "Plantio" || opc == "plantio" || opc == 1){
+            Plantio();
+            menu = false;
+        }
+        else if (opc == "Salir" || opc == "salir" || opc == 2) {
+            menu = false;
+            alert("Seliendo del programa...");
+        }
+        else{
+            alert("Opcion no valida");
+        }
+    }    
+}
+
+function Plantio(){
+    let acabar = true;
+    while (acabar == true) {
+    
+    alert("Seleccione el numero de la opcion que necesita:");
+    let plantas = parseInt(prompt("Plantas registradas:" + "\n1- Rosas" + 
+    "\n2- Girasoles" + "\n3- Tulipanes." + "\n4- Menu principal"));
+
+    switch (plantas){
+        case 1:
+            Rosas();
+            acabar = false;
+        break;
+        case 2:
+            Girasol();
+            acabar = false;
+        break;
+        case 3:
+            Tulipan();
+            acabar = false;
+        break;
+        case 4:
+            Vista();
+            acabar = false;
+        break;
+        default:
+            alert("Opcion no valida");
+        break;
+        } 
+    }
+    
+}
+function Rosas() {
+
+    let acabar1 = true;
+    while(acabar1 == true){
+    let categorias;
+            categorias = parseInt(prompt(
+                "1-Esperanza de vida promedio;"+ 
+                "\n2- Temperatura ideal" +
+                "\n3- Riego recomendado" + 
+                "\n4- Recomendaciones generales"+
+                "\n5- Regresar"));
+                   
+                    switch (categorias) {
+                        case 1:
+                            console.log("Esperanza de vida");
+                            
+                        break;
+                        case 2:
+                            console.log("Temperatura ideal");
+                           
+                        break;
+                        case 3:
+                            console.log("Riego recomendado");
+                            
+                        break;
+                        case 4:
+                           console.log("Recomendaciones generales");
+                           
+                        break;
+                        case 5:
+                            Plantio();
+                            acabar1 = false;
+                        break;
+                        default:
+                            alert("Opcion no valida");
+                        break;
+                    }
+    }       
+     
+}
+
+function Tulipan(){
+    let acabar2 = true;
+    while(acabar2 == true){
+    let categorias2;
+            categorias2 = parseInt(prompt(
+                "1-Esperanza de vida promedio;"+ 
+                "\n2- Temperatura ideal" +
+                "\n3- Riego recomendado" + 
+                "\n4- Recomendaciones generales"+
+                "\n5- Regresar"));
+
+                    switch (categorias2) {
+                        case 1:
+                            console.log("Esperanza de vida");
+                        break;
+                        case 2:
+                            console.log("Temperatura ideal");
+                        break;
+                        case 3:
+                            console.log("Riego recomendado");
+                        break;
+                        case 4:
+                            document.write("Recomendaciones generales");
+                        break;
+                        case 5:
+                            Plantio();
+                            acabar2 = false;
+                        break;
+                        default:
+                            console.log("Opcion no valida");
+                        break;
+                    }
+               }
+               
+}
+
+function Girasol(z) {
+    let acabar3 = true;
+    while(acabar3 == true){
+    let categorias3;
+            categorias3 = parseInt(prompt(
+                "1-Esperanza de vida promedio;"+ 
+                "\n2- Temperatura ideal" +
+                "\n3- Riego recomendado" + 
+                "\n4- Recomendaciones generales"+
+                "\n5- Regresar"));
+                    switch (categorias3) {
+                        case 1:
+                            console.log("sEsperanza de vida");
+                        break;
+                        case 2:
+                            console.log("Temperatura ideal");
+                        break;
+                        case 3:
+                            console.log("Riego recomendado");
+                        break;
+                        case 4:
+                            document.write("Recomendaciones generales");
+                        break;
+                        case 5:
+                            Plantio();
+                            acabar3 = false;
+                        break;
+                        default:
+                            console.log("Opcion no valida");
+                        break;
+                    }      
+    }
+    
+}
+</script>

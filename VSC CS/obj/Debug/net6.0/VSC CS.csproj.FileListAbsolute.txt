@@ -1,0 +1,15 @@
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\VSC CS\bin\Debug\net6.0\VSC CS.exe
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\VSC CS\bin\Debug\net6.0\VSC CS.deps.json
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\VSC CS\bin\Debug\net6.0\VSC CS.runtimeconfig.json
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\VSC CS\bin\Debug\net6.0\VSC CS.dll
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\VSC CS\bin\Debug\net6.0\ref\VSC CS.dll
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\VSC CS\bin\Debug\net6.0\VSC CS.pdb
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\VSC CS\obj\Debug\net6.0\VSC CS.csproj.AssemblyReference.cache
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\VSC CS\obj\Debug\net6.0\VSC CS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\VSC CS\obj\Debug\net6.0\VSC CS.AssemblyInfoInputs.cache
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\VSC CS\obj\Debug\net6.0\VSC CS.AssemblyInfo.cs
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\VSC CS\obj\Debug\net6.0\VSC CS.csproj.CoreCompileInputs.cache
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\VSC CS\obj\Debug\net6.0\VSC CS.dll
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\VSC CS\obj\Debug\net6.0\ref\VSC CS.dll
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\VSC CS\obj\Debug\net6.0\VSC CS.pdb
+C:\Users\monsj\Desktop\UPT Ingenieria en Software\Portafolio UPT\Primer Cuatrimestre\Algoritmos\Parcial 3\VSC CS\obj\Debug\net6.0\VSC CS.genruntimeconfig.cache
